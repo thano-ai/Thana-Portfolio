@@ -1,0 +1,39 @@
+/* CSS HEX */
+ --hopbush: #c166a4;
+--blue-bell: #9493c6;
+--bouquet: #b073ab;
+--mischka: #dfd8e6;
+--jacarta: #3c2464;
+--wisteria: #ac74b4;
+--rum: #6c5c84;
+--kimberly: #746494;
+--mulled-wine: #5c4c7c;
+--victoria: #543c74;
+
+
+/* SCSS HEX */
+$hopbush: #c166a4;
+$blue-bell: #9493c6;
+$bouquet: #b073ab;
+$mischka: #dfd8e6;
+$jacarta: #3c2464;
+$wisteria: #ac74b4;
+$rum: #6c5c84;
+$kimberly: #746494;
+$mulled-wine: #5c4c7c;
+$victoria: #543c74;
+
+
+/* SCSS RGB */
+--hopbush: rgba(193,102,164,1);
+--blue-bell: rgba(148,147,198,1);
+--bouquet: rgba(176,115,171,1);
+--mischka: rgba(223,216,230,1);
+--jacarta: rgba(60,36,100,1);
+--wisteria: rgba(172,116,180,1);
+--rum: rgba(108,92,132,1);
+--kimberly: rgba(116,100,148,1);
+--mulled-wine: rgba(92,76,124,1);
+--victoria: rgba(84,60,116,1);
+
+
