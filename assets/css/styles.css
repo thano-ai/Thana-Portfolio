@@ -11080,7 +11080,7 @@ pre {
 }
 
 .img-wrapper .overlay {
-  background: rgba(172,116,180, 0.7);
+  background: #3c2464;
   position: absolute;
   left: 0;
   bottom: 100%;

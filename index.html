@@ -71,10 +71,9 @@
             </div>
 
             <div class="socials mt-4">
-                <a class="social-item" href="javascript:void(0)"><i class="ti-instagram"></i></a>
-                <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                <a class="social-item" href="javascript:void(0)"><i class="ti-linkedin"></i></a>
+                <a class="social-item" href="https://thana-abdulhalim.netlify.app/"><i class="ti-google"></i></a>
+                <a class="social-item" href="https://github.com/thano-ai"><i class="ti-github"></i></a>
+                <a class="social-item" href="https://www.linkedin.com/in/thana-abdulhalim-51486324a/"><i class="ti-linkedin"></i></a>
             </div>
         </div>
         <div class="img-holder">
@@ -528,10 +527,29 @@
                                 </div>
                             </div>
                             <div class="img-wrapper">
-                                <img src="assets/imgs/coming-soon.png" alt="">
+                                <img src="assets/imgs/StreamLine.png" alt="">
                                 <div class="overlay">
-                                    <div class="overlay-infos">
-                                    </div>
+                                        <div class="overlay-infos">
+                                            <h5>Stream Land SaaS Company</h5>
+                                            <a href="assets/imgs/sl1.png" class="glightbox"
+                                               data-gallery="gallery12"><i
+                                                    class="ti-zoom-in"></i></a>
+                                            <a href="assets/imgs/sl7.png" class="glightbox"
+                                               data-gallery="gallery12"
+                                               style="display: none"></a>
+                                            <a href="assets/imgs/sl3.png" class="glightbox"
+                                               data-gallery="gallery12"
+                                               style="display: none"></a>
+                                               <a href="assets/imgs/sl4.png" class="glightbox"
+                                               data-gallery="gallery12"
+                                               style="display: none"></a>
+                                               <a href="assets/imgs/sl5.png" class="glightbox"
+                                               data-gallery="gallery12"
+                                               style="display: none"></a>
+                                               <a href="assets/imgs/sl6.png" class="glightbox"
+                                               data-gallery="gallery12"
+                                               style="display: none"></a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -685,10 +703,9 @@
             </div>
             <div class="col-sm-6">
                 <div class="socials">
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-instagram"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-linkedin"></i></a>
+                    <a class="social-item" href="https://thana-abdulhalim.netlify.app/"><i class="ti-google"></i></a>
+                <a class="social-item" href="https://github.com/thano-ai"><i class="ti-github"></i></a>
+                <a class="social-item" href="https://www.linkedin.com/in/thana-abdulhalim-51486324a/"><i class="ti-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -789,7 +806,23 @@
             }
         }
     });
+
+    // Select all cards in the swiper
+    var cards = document.querySelectorAll('.swiper-slide');
+
+    // Stop autoplay on hover
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            swiper.autoplay.stop();
+        });
+        
+        // Restart autoplay when the mouse leaves the card
+        card.addEventListener('mouseleave', function() {
+            swiper.autoplay.start();
+        });
+    });
 </script>
+
 
 
 </body>
